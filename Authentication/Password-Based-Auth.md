@@ -36,3 +36,13 @@ Websites tend to block a certain IP for a certain amount of time if there are to
 
 #ACCOUNT LOCKING
 
+#ACCOUNT LOCKING
+
+
+TO protect against bruteforcing some wesbites locks the account after certain number of tries, to bypass this, one could establish a small number of users and a list of most probable password for any of the users like 2-3 and then using burp intruder could check.
+This also fails against account stuffing, sometimes users tend to provide the same id and password for various sites and during a data breach the information gets leaked, which could be bruteforced.
+
+#HTTP basic authentication
+
+Sometimes the HTTP send a auth token consisting og user name and password cancatenated through base64 thus making it easier to decode and moreover one could easily bruteforce it as they are not generally supplied with brute force protection
+
