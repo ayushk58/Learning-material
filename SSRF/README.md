@@ -11,13 +11,18 @@ So it makes a request like.
 *****
 
 GET /product?id=1234 HTTP 1.1
+
 Host: Mozilla 5.0
+
 Cookie: ABCD
+
 .
 .
 .
 .
+
 Check_API:https://back-end/product/check_stock?id=1234
+
 
 *****
 
@@ -25,14 +30,20 @@ The website makes a request to the back-end server which checks the product avai
 
 *****
 
+
 GET /product?id=1234 HTTP 1.1
+
 Host: Mozilla 5.0
+
 Cookie: ABCD
+
 .
 .
 .
 .
+
 Check_API:https://localhost/admin
+
 
 *****
 
