@@ -54,12 +54,16 @@ Sometimes, the website keeps it's importnat files or pages on another server and
 *****
 
 GET /product?id=1234 HTTP 1.1
+
 Host: Mozilla 5.0
+
 Cookie: ABCD
+
 .
 .
 .
 .
+
 Check_API:https://192.168.1.0/admin
 
 *****
